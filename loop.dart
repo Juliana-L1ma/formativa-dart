@@ -7,7 +7,7 @@ void loop(){
   var numeroEscolhido = stdin.readLineSync();
   var numeroEscolhidoConverte = int.parse(numeroEscolhido!);
 
-  for(int i = 0; i < numeroEscolhidoConverte; i++){
+  for(int i = 0; i <= numeroEscolhidoConverte; i++){
     if (i % 2 == 0) {
       print("Par  $i");
     }
@@ -23,4 +23,7 @@ print("Hello World !");
   print(" ");
   print("Digite o dia que você nasceu");
    loop();
+
+print(" ");
+   print("Made by Juliana Lima");
 }
